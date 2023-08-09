@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var sicaklik;
+        sicaklik=Number(prompt("Hava sicakligi kac derece ? "));
+        if(sicaklik<0){
+            document.write("Dondurucu...");
+        }
+        else if(sicaklik<15){
+            document.write("Hava soguk");
+        }
+        else if(sicaklik<25){
+            document.write("Ideal sicaklik...");
+        }
+        else{
+            document.write("Sicak...");
+        }
+    </script>
+    
+</body>
+</html>

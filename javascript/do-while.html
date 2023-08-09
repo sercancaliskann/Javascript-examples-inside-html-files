@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>do-while</title>
+</head>
+<body>
+    <script>
+        //ekrana 15 defa merhaba yazdırma...
+        /*var s=1;
+        do{
+            document.write("merhaba <br>");
+            s++;
+        }
+        while(s<=15);*/
+
+        var s=1 , toplam=0;
+
+        do{
+            document.write("Döngü içindeki sayac = "+s);
+            toplam=toplam+s;
+            document.write("Döngü içindeki toplam = "+toplam);
+            s++;
+            document.write("<br>");
+        }
+        while(s<=10);
+        document.write("1den 10 a kadar olan sayıların toplamı="+toplam);
+    </script> 
+    
+</body>
+</html>

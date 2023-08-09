@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var vize,final,ortalama;
+        vize=Number(prompt("Vize sonucunu giriniz : "));
+        final=Number(prompt("Final sonucunu giriniz : "));
+        ortalama=(vize*40+final*60)/100
+
+        if(ortalama>50){
+            document.write("Ortalamaniz : "+ortalama);
+            document.write("<br>");
+            document.write("Gecti...");
+        }
+        else{
+            document.write("Ortalamaniz : "+ortalama);
+            document.write("<br>");
+            document.write("Kaldi...");
+        }
+    </script>
+</body>
+</html>
